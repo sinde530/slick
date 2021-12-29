@@ -1,0 +1,57 @@
+.header{
+    /* max-width: 1440px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    background-color: var(--slack-color);
+    color: #fff;
+}
+
+.header_left{
+    flex: 0.24;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.header_left > .MuiAvatar-root{
+    width: 1.4rem;
+    height: 1.4rem;
+    margin-left: 4rem;
+}
+
+.header_left > .MuiSvgIcon-root {
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.header_search {
+    flex: 0.1;
+    background-color: #421f44;
+    text-align: center;
+    display: flex;
+    padding: 0 0.3rem;
+    color: gray;
+    border: 0.1rem gray solid;
+    border-radius: 0.3rem;
+}
+
+.header_search > input {
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    min-width: 20vw;
+}
+
+.header_right{
+    flex: 0.3;
+    display: flex;
+    align-items: flex-end;
+}
+
+.header_right > .MuiSvgIcon-root {
+    margin-left: 4rem;
+    margin-right: 4em;
+}
